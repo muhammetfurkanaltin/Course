@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("C:\\Users\\mfurk\\OneDrive\\Masaüstü\\MasaÜstü\BTK\\Python\\20.Pandas\\imdb.csv")
+df = pd.read_csv("C:\\imdb.csv")
 
 result = df 
 result = df.columns
