@@ -12,7 +12,8 @@
 <body>
     {% include 'partials/_navbar.html' %}
 
-    <main>    
+    <main> 
+        {% include 'partials/_alert.html' %}   
         <div class="container mt-4">
             {% block content %}
             {% endblock %}
